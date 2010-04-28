@@ -10,7 +10,6 @@ require(rJava, quietly=TRUE)
 
     jar.cdk <- paste(lib,pkg,"cont","cdk.jar",sep=.Platform$file.sep)
     jar.jcp <- paste(lib,pkg,"cont","jcp.jar",sep=.Platform$file.sep)
-    print("Hello")
     .jinit(classpath=c(jar.cdk,jar.jcp))
 }
     
